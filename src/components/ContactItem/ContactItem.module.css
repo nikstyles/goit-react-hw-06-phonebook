@@ -1,0 +1,21 @@
+.contacts__item {
+  margin-bottom: 5px;
+  border-bottom: 1px solid #000;
+  display: flex;
+  gap: 10px;
+  padding-bottom: 7px;
+  align-items: center;
+  color: #fff;
+}
+
+.contacts__btn {
+  border: none;
+  background: #26273b;
+  color: #fff;
+  position: absolute;
+  right: 0px;
+}
+
+.contacts__btn:hover {
+  color: #ff886a;
+}

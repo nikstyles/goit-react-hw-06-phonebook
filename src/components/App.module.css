@@ -1,0 +1,30 @@
+.phonebook {
+  height: 1000px;
+  background: #141526;
+  padding-top: 50px;
+}
+
+.phonebook__card {
+  width: 300px;
+  margin: 0 auto;
+  background-color: #26273b;
+  border-radius: 10px;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+.phonebook__title {
+  color: #fff;
+  font-weight: 300;
+  padding-top: 10px;
+}
+.phonebook__second_title {
+  color: #fff;
+  font-weight: 300;
+}
+
+.empty__text {
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

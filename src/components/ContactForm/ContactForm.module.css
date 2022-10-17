@@ -1,0 +1,54 @@
+.form__card {
+  overflow: hidden;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form__list {
+  width: 280px;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 10px;
+
+  background: #141526;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.form__item {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.form__title {
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.568);
+}
+
+.form__input {
+  border: none;
+  background: #141526;
+  color: #fff;
+
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.form__btn {
+  display: flex;
+  gap: 5px;
+  margin-left: auto;
+  margin-top: 10px;
+
+  background: #26273b;
+  color: #6afff3;
+  border: 1px solid #6afff3;
+  border-radius: 5px;
+  padding: 5px;
+}
+.form__btn:hover {
+  cursor: pointer;
+  background: #6afff3;
+  color: #141526;
+}
