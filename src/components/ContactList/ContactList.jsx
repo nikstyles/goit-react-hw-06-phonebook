@@ -3,10 +3,11 @@ import ContactItem from 'components/ContactItem/ContactItem';
 import s from './ContactList.module.css';
 
 export default function ContactList({ contacts, onDeleteContact }) {
+  console.log(contacts);
   return (
     <>
       <ul className={s.contacts__list}>
-        {contacts.map(({ id, name, number }) => (
+        {contacts?.map(({ id, name, number }) => (
           <ContactItem
             key={id}
             id={id}
